@@ -122,8 +122,8 @@ if (源码.indexOf("<rss") != -1) {
   var 左上规则 = ".tx(<p style=\"background-color:#7091fc\"><font color=\"#FFFFFF\" size=\"40px\">).json(type_name).ct(</font></p>)";
   var 右上规则 = ".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";
   通用列表();
-}######
-选集列表
+}
+// ######选集列表
 var URL = getVar("url");
 
 function 选集列表() {
@@ -278,7 +278,7 @@ if (getVar("源码").indexOf("<rss") != -1) {
     选集列表();
   }
 }
-######搜索列表
+// ######搜索列表
 function 搜索列表() {
   var res = {};
   var items = [];
@@ -346,8 +346,8 @@ if (源码.indexOf("<rss") != -1) {
   var 简介规则 = ".json(type_name).c().json(vod_time).c().json(vod_remarks)";
   var 作者规则 = ".json(vod_play_from)";
   搜索列表();
-}######
-免嗅探
+}
+// ######免嗅探
 var uu = getVar("url");
 var UA = "Mozilla/5.0";
 var COOKIE = "";
