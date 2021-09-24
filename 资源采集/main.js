@@ -123,7 +123,7 @@ if (源码.indexOf("<rss") != -1) {
   var 右上规则 = ".tx(<p style=\"background-color:#CC00FF\"><font color=\"#FFFFFF\">).json(vod_remarks).ct(</font></p>)";
   通用列表();
 }
-// ######选集列表
+// ######选集列表#####
 var URL = getVar("url");
 
 function 选集列表() {
