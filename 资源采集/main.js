@@ -38,7 +38,7 @@ if (源码.indexOf("<rss") != -1) {
   var 后 = "";
   头部导航();
 }
-// ######通用列表
+// ######通用列表######
 var baseURL = getVar("url").split("?")[0];
 var NEXTPAGE = Number(getVar("PN")) + 1;
 
